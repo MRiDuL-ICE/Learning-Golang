@@ -5,11 +5,9 @@ import (
 )
 
 func main() {
-	var username string = "Mridul"
-	var password int = 123456
-	var isLoggedIn bool = true
-	fmt.Println(username, password, isLoggedIn)
+	var username string
+	// var password int = 123456
+	// var isLoggedIn bool = true
+	fmt.Println(username)
 	fmt.Printf("Variable type of : %T \n", username)
-	fmt.Printf("Variable type of : %T \n", password)
-	fmt.Printf("Variable type of : %T ", isLoggedIn)
 }
